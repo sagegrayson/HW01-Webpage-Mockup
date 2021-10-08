@@ -120,27 +120,7 @@ p {
 }
 
 /* text settings for main info boxes - seo */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* text settings for main info boxes - orm */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* text settings for main info boxes - smm */
-.social-media-marketing {
+.maininfo-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -150,34 +130,12 @@ p {
 }
 
 /* img settings for main info boxes - seo */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* img settings for main info boxes - orm */
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* img settings for main info boxes - smm */
-.social-media-marketing img {
+.maininfo-section img {
     max-height: 200px;
 }
 
 /* header settings for main info boxes - seo */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* header settings for main info boxes - orm */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* header settings for main info boxes - smm */
-.social-media-marketing h2 {
+.maininfo-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
