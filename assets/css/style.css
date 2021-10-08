@@ -1,13 +1,16 @@
+/* reset padding and margin for entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* main background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* navigation bar layout, colors, and font properties */
 .navigationbar {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* main title in navbar */
 .navigationbar h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* change color of "seo" in main title */
 .navigationbar h1 .seo {
     color: #d9dcd6;
 }
 
+/* properties for navigation buttons (list) */
 .navigationbar div {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,20 +42,24 @@ body {
     list-style-type: none;
 }
 
+/* layout and margin of list */
 .navigationbar div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* all nav links set to white */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* all text in p tag set to 16px */
 p {
     font-size: 16px;
 }
 
+/* dimensions and layout for main page image */
 .heroimage {
     height: 800px;
     width: 100%;
@@ -59,22 +69,26 @@ p {
     background-position: center;
 }
 
+/* image layout for main info boxes - left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* image layout for main info boxes - right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* layout for main info boxes */
 .maininfo {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* layout for right column - benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +100,64 @@ p {
     background-color: #2589bd;
 }
 
+/* text color and margins for benefits - lead generation */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* text color and margins for benefits - brand awareness */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* text color and margins for benefits - cost management */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* text color and margins for benefits heading - lead generation */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* text color and margins for benefits heading - brand awareness */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* text color and margins for benefits heading - cost management */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* image display settings for benefits - lead generation */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* image display settings for benefits - brand */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* image display settings for benefits - cost */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* text settings for main info boxes - seo */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +167,7 @@ p {
     color: #ffffff;
 }
 
+/* text settings for main info boxes - orm */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +177,7 @@ p {
     color: #ffffff;
 }
 
+/* text settings for main info boxes - smm */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +187,40 @@ p {
     color: #ffffff;
 }
 
+/* img settings for main info boxes - seo */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* img settings for main info boxes - orm */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* img settings for main info boxes - smm */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* header settings for main info boxes - seo */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* header settings for main info boxes - orm */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* header settings for main info boxes - smm */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* footer main text settings */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +228,7 @@ p {
     text-align: center;
 }
 
+/* footer header settings */
 .footer h2 {
     font-size: 20px;
 }
