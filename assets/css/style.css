@@ -101,57 +101,19 @@ p {
 }
 
 /* text color and margins for benefits - lead generation */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* text color and margins for benefits - brand awareness */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* text color and margins for benefits - cost management */
-.benefit-cost {
+.benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* text color and margins for benefits heading - lead generation */
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* text color and margins for benefits heading - brand awareness */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* text color and margins for benefits heading - cost management */
-.benefit-cost h3 {
+.benefit-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* image display settings for benefits - lead generation */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* image display settings for benefits - brand */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* image display settings for benefits - cost */
-.benefit-cost img {
+.benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
